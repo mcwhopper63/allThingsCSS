@@ -74,14 +74,17 @@ header {
   padding: 0.5em 0;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav__list {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-nav__list--row {
-  justify-content: flex-start;
+  display: flex;
+  justify-content: center;
 }
 
 .nav__link {
