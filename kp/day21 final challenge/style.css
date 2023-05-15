@@ -1,0 +1,54 @@
+/* 
+#2E323F
+#3B4050
+#6F737F
+#FFFFFF
+#A59678
+*/
+
+:root {
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+}
+
+header {
+  background-color: #2e323f;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+}
+
+ul {
+  display: flex;
+}
+
+.hero h1 {
+  font-family: 'Oswald';
+  font-size: 90px;
+}
+
+.hero-footer--background {
+  background-color: #3b4050;
+}
+
+.hero__p {
+  width: 90%;
+}
+
+img {
+  width: 100%;
+}
