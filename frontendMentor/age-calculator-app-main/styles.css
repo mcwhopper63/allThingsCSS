@@ -83,9 +83,9 @@ body {
 }
 
 .output {
-    margin-top: 3rem;
+    margin-top: 2.75rem;
     margin-bottom: 40px;
-    font-size: 4.5rem;
+    font-size: 3.125rem;
     font-weight: 800;
     font-style: italic;
     letter-spacing: -1.5px;
@@ -105,4 +105,32 @@ span {
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+    html {
+        font-size: 8px;
+    }
+    .card {
+        width: 27.5rem;
+        border-bottom-right-radius: 7rem;
+        padding: 1.5rem;
+    }
+    .input {
+        margin-right: 0;
+    }
+    .input-cntr-year {
+        width: 33%;
+        margin-right: 0;
+    }
+    .divider {
+        width: 95%;
+    }
+    img {
+        width: 3.125rem;
+    }
+    .img {
+        top: -1.475rem;
+        right: 47.5%;
+    }
 }
