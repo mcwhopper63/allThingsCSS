@@ -14,6 +14,13 @@
 
         <link rel="stylesheet" href="styles.css" />
 
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+            rel="stylesheet"
+        />
+
         <title>Frontend Mentor | Interactive card details form</title>
 
         <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -22,16 +29,12 @@
     <body>
         <div class="section">
             <div class="card">
-                <div class="background-cntr">
-                    <img
-                        class="background-img"
-                        src="./images/bg-main-desktop.png"
-                        alt=""
-                    />
-                </div>
+                <div class="background-cntr"></div>
 
                 <div class="img-cntr img-card-front-cntr">
-                    <p>0000 0000 0000 0000 Jane Appleseed 00/00</p>
+                    <p class="card-txt-front-digits">0000 0000 0000 0000</p>
+                    <p class="card-txt-name">Jane Appleseed</p>
+                    <p class="card-txt-expiration">00/00</p>
                     <img
                         class="img img-card-front"
                         src="./images/bg-card-front.png"
@@ -40,7 +43,7 @@
                 </div>
 
                 <div class="img-cntr img-card-back-cntr">
-                    <p>000</p>
+                    <p class="card-txt-back">000</p>
                     <img
                         class="img img-card-back"
                         src="./images/bg-card-back.png"
@@ -48,25 +51,27 @@
                     />
                 </div>
 
-                <div class="form">
-                    <div class="row name">
-                        Cardholder Name
-                        <div class="card-input-field-cntr">
-                            e.g. Jane Appleseed
-                        </div>
+                <div class="non-background-cntr">
+                    <div class="form">
                         <div class="row name">
-                            Card Number
+                            Cardholder Name
                             <div class="card-input-field-cntr">
-                                e.g. 1234 5678 9123 0000
+                                e.g. Jane Appleseed
                             </div>
-                        </div>
-                        <div class="row name">
-                            Exp. Date (MM/YY) MM YY
-                            <div class="card-input-field-cntr">MM</div>
-                            <div class="card-input-field-cntr">YY</div>
-                            CVC e.g. 123
-                            <div class="card-input-field-cntr">YY</div>
-                            <button>Confirm</button>
+                            <div class="row name">
+                                Card Number
+                                <div class="card-input-field-cntr">
+                                    e.g. 1234 5678 9123 0000
+                                </div>
+                            </div>
+                            <div class="row name">
+                                Exp. Date (MM/YY) MM YY
+                                <div class="card-input-field-cntr">MM</div>
+                                <div class="card-input-field-cntr">YY</div>
+                                CVC e.g. 123
+                                <div class="card-input-field-cntr">YY</div>
+                                <button>Confirm</button>
+                            </div>
                         </div>
                     </div>
                 </div>
