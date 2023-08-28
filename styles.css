@@ -69,7 +69,7 @@ body {
     border: none;
     background: none;
     font-size: 1.1rem;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     margin-left: 20px;
     flex-grow: 1;
     color: var(--text);
@@ -94,6 +94,7 @@ body {
     );
     border-radius: inherit;
     animation: progress 2.5s 0.3s linear;
+    /* border: 5px solid white; */
 }
 
 .icon__wrapper {
